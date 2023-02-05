@@ -1,0 +1,62 @@
+.DisplayBox{
+color: rgb(81, 18, 87);
+display: grid;
+grid-template-columns: 80% auto auto auto;
+column-gap: 0.5rem;
+
+padding-left: 1rem;
+padding-right: 2rem;
+border: 0.2rem;
+border-color: black;
+border-style: solid;
+overflow: auto;
+filter: drop-shadow(8px 8px 10px gray);
+}
+.Check{
+    width: 50% ;
+    height: 40%;
+    align-items: right;
+    filter: invert(50%);
+    padding-top: 1.5rem;
+    cursor: pointer;
+    filter: invert(36%) sepia(100%) saturate(747%) hue-rotate(84deg) brightness(91%) contrast(93%);
+
+
+}
+.Mark{
+    width: 30% ;
+    height: 40%;
+    text-align: right;
+    padding-top: 1.5rem;
+    cursor: pointer;
+    filter: invert(9%) sepia(59%) saturate(7480%) hue-rotate(254deg) brightness(79%) contrast(109%);
+
+
+
+}
+.Remove{
+
+    width: 30% ;
+    height: 40%;
+    text-align: right;
+    padding-top: 1.5rem;
+    cursor: pointer;
+    filter: invert(18%) sepia(68%) saturate(7477%) hue-rotate(357deg) brightness(98%) contrast(87%);
+  
+}
+.Remove path{
+    fill:rgb(30, 160, 30);
+}
+.displayTitle{
+    background-color: rgb(129, 187, 241);
+    border-radius: 1rem;
+    -webkit-border-radius:1rem;
+    -moz-border-radius:1rem;
+    -o-border-radius:1rem;
+    -ms-border-radius:1rem;
+    padding-top: 2rem;
+
+
+
+
+}

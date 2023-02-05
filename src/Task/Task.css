@@ -1,0 +1,44 @@
+.TaskName{
+    color: rgb(81, 18, 87);
+font-family:'Courier New', Courier, monospace;
+
+text-decoration: underline;
+display: grid;
+grid-template-columns: auto 65% auto;
+column-gap: 2rem;
+padding-bottom: 2rem;
+padding-left: 2rem;
+padding-right: 2rem;
+
+
+}
+input {
+    background-color: rgb(24, 25, 26);
+
+    
+}
+
+input,
+input::placeholder {
+    font: 20px/3 sans-serif;
+    font-style: italic;
+    color: blue;
+}
+.TitleTask{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: right;
+}
+.AddTask{
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(172, 67, 67);
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 800;
+    color: rgb(81, 18, 87);
+    border-radius: 20px;
+    
+
+
+}

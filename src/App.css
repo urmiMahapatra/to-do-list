@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  
+}
+.Container{
+  background-color: rgb(189, 224, 213);
+  width: 80%;
+  
+
+}
+.Title{
+color: rgb(37, 37, 78);
+font-family:'Times New Roman', Times, serif;
+font-size: 60px;
+font-weight: 500;
+text-decoration: underline;
+
+}
+
