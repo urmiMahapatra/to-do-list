@@ -9,15 +9,9 @@ function App() {
     <div className="App">
       <div className='Container'>
       <h1 className="Title">TODO APP</h1>
-        <Task>
-
-        </Task>
-        <TodoItem>
-          
-        </TodoItem>
-
+        <Task></Task>
+        <TodoItem></TodoItem>
       </div>
-  
     </div>
   );
 }
