@@ -29,11 +29,12 @@ filter: drop-shadow(8px 8px 10px gray);
     text-align: right;
     padding-top: 1.5rem;
     cursor: pointer;
-    filter: invert(9%) sepia(59%) saturate(7480%) hue-rotate(254deg) brightness(79%) contrast(109%);
+    /* filter: invert(9%) sepia(59%) saturate(7480%) hue-rotate(254deg) brightness(79%) contrast(109%); */
 
 
 
 }
+
 .Remove{
 
     width: 30% ;
@@ -44,6 +45,15 @@ filter: drop-shadow(8px 8px 10px gray);
     filter: invert(18%) sepia(68%) saturate(7477%) hue-rotate(357deg) brightness(98%) contrast(87%);
   
 }
+
+img[target="Checked"] {
+    filter: invert(64%) sepia(98%) saturate(390%) hue-rotate(83deg) brightness(84%) contrast(88%);
+}
+
+img[target="UnChecked"] {
+    filter: invert(25%) sepia(18%) saturate(19%) hue-rotate(354deg) brightness(100%) contrast(93%);
+}
+
 .Remove path{
     fill:rgb(30, 160, 30);
 }
