@@ -32,15 +32,12 @@ class TodoItem extends React.Component {
 
     selectedTask (item, op) {
         this.props.selectedTask(item, op);
-        // console.log(this.state.selected);
+       
     }
 
 
     onEditClicked(e) {
-        // console.log(e.target.parentNode.className);
-        // let input = e.target.parentNode.getElement('displayTitleId');
-        // console.log(input.value);
-        // input.disabled = false;
+        
         if(this.state.inputDisableState) {
             e.target.src = Save;
         } else {

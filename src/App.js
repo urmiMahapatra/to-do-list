@@ -1,9 +1,8 @@
-// import logo from './logo.svg';
+
 import React from 'react';
-// import Async from 'react-async'
-// import { useState } from 'react';
+
 import './App.css';
-// import Task from './Task/Task.js';
+
 import TodoItem from './TodoItem/TodoItem.js';
 
 
@@ -29,7 +28,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    console.log("PKS 1001");
+
     this.getFetchItems();
   }
 
@@ -83,21 +82,21 @@ class App extends React.Component {
 
   editItem(editIndex, title) {
     this.state.todoList[editIndex].title = title;
-    fetch("https://jsonplaceholder.typicode.com/todos?id=editIndex", {
+ 
+    fetch("https://jsonplaceholder.typicode.com/todos/1",
+    {
       method: 'PUT',
-      headers: {
-        Accept: "application/json",
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer my-token',
-        'My-Custom-Header': 'foobar'
+      headers: {  
+        'Content-type': 'application/json; charset=UTF-8',
       },
-      body: JSON.stringify({ title })
-    })
+      body: JSON.stringify({
 
-      .then((res) => {
-        console.log("Data edited");
-
+       title,
       })
+    })
+    .then((response) => response.json())
+    .then((json) => console.log(json));
+    
   }
 
   deleteItem(editIndex) {
