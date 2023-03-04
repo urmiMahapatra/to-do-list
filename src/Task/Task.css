@@ -14,8 +14,7 @@ padding-right: 2rem;
 }
 input {
     background-color: rgb(24, 25, 26);
-
-    
+  
 }
 
 input,
@@ -32,13 +31,16 @@ input::placeholder {
 .AddTask{
     font-size: 30px;
     font-family:'Courier New', Courier, monospace;
-    background-color: rgb(172, 67, 67);
+    background-color: rgb(221, 245, 193);
     text-decoration: underline;
     cursor: pointer;
     font-weight: 800;
     color: rgb(81, 18, 87);
     border-radius: 20px;
     
-
-
+ 
+}
+.TextBox{
+    background-color: rgb(221, 245, 193);
+    border-radius: 20px;
 }
